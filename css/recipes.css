@@ -11,8 +11,6 @@
     width: 50vw;
     min-width: 375px;
     max-width: 800px;
-    border-style: solid;
-    border-color: black;
     padding: 25px 40px;
     margin-bottom: 10px;
 }
@@ -51,4 +49,17 @@
 footer {
     display: flex;
     justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    background-color: pink;
 }

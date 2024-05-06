@@ -12,7 +12,20 @@
     margin-bottom: -10px;
 }
 
-.container-content ul {
-    list-style: none;
+.container-content ol {
     margin-left: -10px;
+    list-style: none;
+}
+
+.container-content ol a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container-content ol a:visited {
+    color: black;
+}
+
+.container-content ol a:hover {
+    background-color: pink;
 }
