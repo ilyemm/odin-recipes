@@ -8,7 +8,9 @@
 }
 
 .recipe-content {
-    width: 400px;
+    width: 50vw;
+    min-width: 375px;
+    max-width: 800px;
     border-style: solid;
     border-color: black;
     padding: 25px 40px;
@@ -22,6 +24,10 @@
 
 .recipe-content .recipe-header {
     text-align: center;
+}
+
+.recipe-content .recipe-header h1 {
+    font-size: 36px;
 }
 
 .recipe-content img{
