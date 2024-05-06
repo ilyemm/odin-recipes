@@ -1,0 +1,48 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipe-card {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-content {
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px 40px;
+    margin-bottom: 10px;
+}
+
+.recipe-content .recipe-header,
+.recipe-content .recipe-ingredients {
+    margin-bottom: 50px;
+}
+
+.recipe-content .recipe-header {
+    text-align: center;
+}
+
+.recipe-content img{
+    width: 350px;
+    height: auto;
+}
+
+.recipe-content .recipe-ingredients h2,
+.recipe-content .recipe-steps h2{
+    text-decoration: underline;
+}
+
+.recipe-content .recipe-steps li p {
+    font-weight: bold;
+}
+
+.recipe-content .recipe-steps li ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
